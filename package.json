@@ -1,0 +1,33 @@
+{
+  "name": "react-page-builder",
+  "version": "0.1.0",
+  "description": "Enable developers to use D&D and configuration to build React page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "pub": "npm run build && npm publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/linb/react-page-builder.git"
+  },
+  "keywords": [
+    "react",
+    "configurable",
+    "D&D",
+    "build",
+    "page",
+    "react-page-builder",
+    "react-hook-module"
+  ],
+  "author": "linb",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/linb/react-page-builder/issues"
+  },
+  "homepage": "https://github.com/linb/react-page-builder#readme",
+  "dependencies": {
+    "react": "17.0.0"
+  },
+  "devDependencies": {}
+}
