@@ -16,6 +16,8 @@ import ReactBuilder from "react-page-builder";
 ```javascript
 ...
 export default function App() {
+  const codeSavedRef = React.useRef();
+
   const builderRef = React.useRef();
   const getBulder = () => builderRef.current;
   // ready event
@@ -30,9 +32,22 @@ export default function App() {
   const getDesignCode = () => {
     const builder = getBulder();
     builder.executeCommand("getDesignCode", {}, function (data) {
+      codeSavedRef.current = data.data;
       alert(data.data);
     });
   };
+const setDesignCode = () => {
+    const builder = getBulder();
+    if(codeSavedRef.current){
+      builder.executeCommand(
+        "setDesignCode",
+        codeSavedRef.current,
+        function (data) {
+          console.log(data);
+        }
+      );
+    }
+  };  
   // get React code
   const getReactCode = () => {
     const builder = getBulder();
