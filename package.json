@@ -1,5 +1,5 @@
 {
-  "name": "react-page-builder",
+  "name": "react-page-wysiwyg",
   "version": "0.1.0",
   "description": "Enable developers to use D&D and configuration to build React page",
   "main": "index.js",
@@ -9,25 +9,28 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/linb/react-page-builder.git"
+    "url": "git+https://github.com/linb/react-page-wysiwyg.git"
   },
   "keywords": [
-    "react",
+    "react-page",
     "configurable",
     "D&D",
-    "build",
-    "page",
-    "react-page-builder",
+    "Drag-n-Drop",
+    "wysiwyg",
+    "builder",
+    "designer",
+    "react-page-wysiwyg",
     "react-hook-module"
   ],
   "author": "linb",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/linb/react-page-builder/issues"
+    "url": "https://github.com/linb/react-page-wysiwyg/issues"
   },
-  "homepage": "https://github.com/linb/react-page-builder#readme",
+  "homepage": "https://github.com/linb/react-page-wysiwyg#readme",
   "dependencies": {
-    "react": "17.0.0"
+    "react": "17.0.0",
+    "react-dom": "17.0.0"
   },
   "devDependencies": {}
 }

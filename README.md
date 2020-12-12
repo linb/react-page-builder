@@ -1,17 +1,17 @@
-# react-page-builder - version 0.1
+# react-page-wysiwyg - version 0.1
 Enable developers to use D&D and configuration to build React page. wysiwyg.
 
-<img src="https://raw.githubusercontent.com/linb/react-page-builder/master/snapshot.png" >
+<img src="https://raw.githubusercontent.com/linb/react-page-wysiwyg/master/snapshot.png" >
 
 ## 1. Usage
 ### 1.1. Install
 ```javascript
-npm install react-page-builder
+npm install react-page-wysiwyg
 ```
 
 ### 1.2. Import
 ```javascript
-import ReactBuilder from "react-page-builder";
+import ReactBuilder from "react-page-wysiwyg";
 ```
 
 ### 1.3. Use the component
@@ -77,7 +77,7 @@ export default function App() {
 };
 ```
 ## 2. Demo
-[Open the demo in CodeSandbox](https://codesandbox.io/s/summer-wave-4vvl0 "react-page-builder demo")
+[Open the demo in CodeSandbox](https://codesandbox.io/s/summer-wave-4vvl0 "react-page-wysiwyg demo")
  
 ## 3. npm
-[npm link](https://www.npmjs.com/package/react-page-builder "react-page-buildere NPM")
+[npm link](https://www.npmjs.com/package/react-page-wysiwyg "react-page-wysiwyg NPM")
