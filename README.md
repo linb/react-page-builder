@@ -1,7 +1,7 @@
 # react-page-builder - version 0.1
 Enable developers to use D&D and configuration to build React page. wysiwyg.
 
-<img src="https://raw.githubusercontent.com/linb/react-page-builder/master/snapshot.png"  width="600">
+<img src="https://raw.githubusercontent.com/linb/react-page-builder/master/snapshot.png" >
 
 ## 1. Usage
 ### 1.1. Install
