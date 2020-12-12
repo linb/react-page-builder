@@ -1,5 +1,5 @@
 import React from "react";
-import ReactBuilder from "react-page-builder";
+import ReactBuilder from "react-page-wysiwyg";
 
 export default function App() {
   const builderRef = React.useRef();
