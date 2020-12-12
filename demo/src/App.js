@@ -63,7 +63,7 @@ export default Module;
         <button onClick={exportToCodeSandbox}>Export to CodeSandbox</button>
         {"  "}
       </p>
-      <div className="App" style={{ width: "100%", height: "680px" }}>
+      <div style={{ width: "100%", height: "680px" }}>
         <ReactBuilder
           license="put your license code here"
           builderRef={builderRef}
