@@ -1,5 +1,5 @@
 # react-page-builder - version 0.1
-Enable developers to use D&D and configuration to build React page.
+Enable developers to use D&D and configuration to build React page. wysiwyg.
 
 ## 1. Usage
 ### 1.1. Install
