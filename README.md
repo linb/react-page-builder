@@ -36,7 +36,8 @@ export default function App() {
       alert(data.data);
     });
   };
-const setDesignCode = () => {
+  // set code to design
+  const setDesignCode = () => {
     const builder = getBulder();
     if(codeSavedRef.current){
       builder.executeCommand(
