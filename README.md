@@ -78,6 +78,9 @@ export default function App() {
 ```
 ## 2. Demo
 [Open the demo in CodeSandbox](https://codesandbox.io/s/summer-wave-4vvl0 "react-page-wysiwyg demo")
- 
+
+[React Builder (with file management)](https://crossui.com/ReactBuilder "react-builder online")
+
+
 ## 3. npm
 [npm link](https://www.npmjs.com/package/react-page-wysiwyg "react-page-wysiwyg NPM")
